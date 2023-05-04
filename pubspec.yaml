@@ -1,0 +1,142 @@
+name: iptv_sbi_v2
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+#  sdk: '>=2.1.0 <3.7.7'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.8
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  video_player: ^2.5.1
+  chewie: ^1.4.0
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  provider: ^6.0.5
+  google_fonts: ^4.0.3
+  carousel_slider: ^4.2.1
+  flutter_secure_storage: ^8.0.0
+  rxdart: ^0.27.7
+  http: ^0.13.5
+  encrypt: ^5.0.1
+  pointycastle: ^3.6.2
+  dropdown_search: ^5.0.6
+  url_launcher: ^6.1.10
+  device_info_plus: ^8.1.0
+  intl: ^0.18.0
+  permission_handler: ^10.2.0
+  network_info_plus: ^3.0.2
+  wakelock: ^0.6.2
+  device_information: ^0.0.4
+  client_information: ^2.0.3+1
+  flutter_rating_bar: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/alpha_logo.png
+    - assets/images/alpha_logo_setting.png
+    # Diwan logo has taken from diwan_slider
+    - assets/images/background_choice_screen.jpg
+    - assets/images/diwansport_bg.jpg
+    - assets/images/diwansport_slider.jpg
+    - assets/images/livetv_bg.jfif
+    - assets/images/livetv_slider.webp
+    - assets/images/alphasport_bg.jpg
+    - assets/images/alphasport_slider.webp
+    - assets/images/movies_bg.webp
+    - assets/images/movies_slider.jpg
+    - assets/images/series_bg.webp
+    - assets/images/series_slider.jpg
+    - assets/images/documentary_bg.jpg
+    - assets/images/documentary_slider.jpg
+    - assets/images/kids_bg.jpg
+    - assets/images/kids_slider.jpg
+    - assets/images/anime_bg.webp
+    - assets/images/anime_slider.jpg
+    - assets/images/islamic_bg.jpg
+    - assets/images/islamic_slider.jpg
+    - assets/images/islamic_slider.jpg
+    - assets/images/music_bg.jpg
+    - assets/images/music_slider.jpg
+    - assets/images/radio_bg.jpg
+    - assets/images/radio_slider.jpg
+    - assets/images/alphasport_replay_bg.jpg
+    - assets/images/alphasport_replay_slider.webp
+    - assets/images/bg_movies_screen.jpg
+    - assets/images/bg_series_screen.jpg
+    - assets/images/bg_login_screen.jpg
+
+    - assets/images/bg_settings_screen.jpg
+    - assets/images/facebook_logo.png
+
+    - assets/videos/test_video.mp4
+
+  # example:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

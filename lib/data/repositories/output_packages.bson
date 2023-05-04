@@ -1,0 +1,111 @@
+{name: Live TV, icon: ,
+  live: [
+    {id: 3, name: TUNISIE-ALGERIE-MAROC, lang: , icon: },
+    {id: 7, name: BEIN-MBC-ROTANA-CBC-ART, lang: , icon: },
+    {id: 10, name: CHAINES FRANCAISE, lang: , icon: },
+    {id: 40, name: CHAINES KIDS FRANÇAISE, lang: , icon: },
+    {id: 41, name: CHAINES SPORT FRANÇAISE, lang: , icon: },
+    {id: 42, name: CHAINES DECOUVERTE FRANÇAISE, lang: , icon: }
+  ],
+  movies: [],
+  series: [],
+}
+
+
+{name: World Cup, icon: ,
+    live: [
+        {id: 9, name: CHAINES SPORT ARABE, lang: , icon: },
+    ],
+    movies: [],
+    series: [],
+}
+
+
+{name: Alpha Sport, icon: ,
+  live: [
+     {id: 41, name: CHAINES SPORT FRANÇAISE, lang: , icon: }
+  ],
+  movies: [],
+  series: [],
+}
+
+
+{name: Movies, icon: ,
+  live: [],
+  movies: [
+    {id: 2783, name: FILMS FRANÇAIS, lang: fr, icon: },
+    {id: 2784, name: FILMS ARABE, lang: ar, icon: },
+    {id: 2831, name: FILMS GERMANY, lang: nl, icon: }
+  ],
+  series: [],
+}
+
+
+{name: Series,
+    icon: ,
+    live: [],
+    movies: [],
+    series: [],
+}
+
+
+{name: Documentary, icon: ,
+  live: [
+    {id: 3, name: TUNISIE-ALGERIE-MAROC, lang: , icon: }
+  ],
+  movies: [],
+  series: [
+    {id: 2785, name: SÉRIES FRANÇAIS, lang: fr, icon: },
+    {id: 2820, name: SÉRIES TURQUE, lang: tr, icon: }
+  ],
+}
+
+{name: Kids,
+    icon: ,
+    live: [
+        {id: 40, name: CHAINES KIDS FRANÇAISE, lang: , icon: },
+        {id: 12, name: CHAINES KIDS ARABE, lang: , icon: }
+    ],
+    movies: [
+        {id: 800, name: FILMS ENFANTS ARABE, lang: ar, icon: },
+        {id: 31, name: FILMS ENFANTS FRANÇAIS, lang: fr, icon: }
+    ], series: [
+        {id: 2827, name: SÉRIES ENFANTS FRANÇAIS, lang: fr, icon: },
+        {id: 2829, name: SÉRIES ENFANTS ARABE, lang: ar, icon: }
+    ],
+}
+
+
+{name: Anime,
+    icon: ,
+    live: [],
+    movies: [],
+    series: [],
+}
+
+{name: Islamic,
+    icon: ,
+    live: [
+        {id: 13, name: CHAINES ISLAMIQUE, lang: , icon: },
+    ],
+    movies: [],
+    series: [],
+}
+
+
+{name: Music, icon: ,
+    live: [
+        {id: 1143, name: MUSIQUE ARABE, lang: , icon: },
+        {id: 1156, name: MUSIQUE FRANÇAISE, lang: , icon: },
+        {id: 1380, name: Musique Tunisienne , lang: , icon: }
+    ],
+    movies: [],
+    series: [],
+}
+
+{name: Radio, icon: ,
+    live: [],
+    movies: [],
+    series: [],
+}
+
