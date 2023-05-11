@@ -17,6 +17,8 @@ import '../../favorite/view/favorite_screen_view.dart';
 import '../../movies_route/view/movies_screen_view.dart';
 import '../../search/view/search_view.dart';
 import '../../series/view/series_home_view.dart';
+import '../../music/view/music_view.dart';
+import '../../radio/view/radio_view.dart';
 import '../../settings/view/settings_view.dart';
 import '../viewmodel/home_viewmodel.dart';
 
@@ -265,6 +267,13 @@ class _HomeViewState extends State<HomeView> {
                                       ));
                                 }
                                 break;
+                              case "Music":
+                                Get.to(() => MusicPage());
+                                break;
+                              case "Radio":
+                                Get.to(() => RadioPage());
+                                break;
+
                               default:
                                 {
                                   Get.to(() => MoviesScreenView(
@@ -510,6 +519,14 @@ class _HomeViewState extends State<HomeView> {
                                                 ));
                                           }
                                           break;
+
+                                        case "Music":
+                                          Get.to(() => MusicPage());
+                                          break;
+                                        case "Radio":
+                                          Get.to(() => RadioPage());
+                                          break;
+
                                         default:
                                           {
                                             Get.to(() => MoviesScreenView(
